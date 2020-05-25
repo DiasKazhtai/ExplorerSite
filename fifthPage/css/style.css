@@ -293,7 +293,7 @@ body{
     font-family: 'Merriweather', serif;
 }
 .header__container {
-    max-width: 1300px;
+    max-width: 1200px;
     padding-top: 30px;
     padding-left: 50px;
     padding-bottom: 20px;
@@ -318,6 +318,7 @@ body{
     display: flex;
     justify-content: space-around;
     margin-left: 20px;
+    margin-right: 100px;
 }
 
 .header__navbar-city a {
@@ -442,6 +443,7 @@ body{
         display: flex;
         justify-content: space-between;
         margin-top: 5px;
+        max-width: 1200px;
     }
     
     .main__search-logo-wrapper{
@@ -466,7 +468,9 @@ body{
     }
     .main__nav-wrapper-item{
         margin-top: 20px;
-
+    }
+    .main__nav-wrapper{
+        margin-right: 100px;
     }
     .main__nav-wrapper-item:hover{
         opacity: 0.7;
@@ -479,6 +483,47 @@ body{
         margin-top: 50px;
     }
 
+    .first-sidebar{
+        margin-bottom: 1000px;
+    }
+    .second-sidebar {
+        width: 200px;
+        height: 500px;
+        background-color: rgba(86, 176, 225, 0.89);
+
+    }
+    .main__second-sidebar-item button{
+        border: 1px solid white;
+        border-radius: 6px;
+        background-color: white;
+        color: blue;
+        padding: 10px;
+        margin: 10px 0 20px 40px
+    }
+    .main__second-sidebar-item-item{
+        width: 150px;
+        height: 25px;
+        margin-left: 20px;
+    }
+    .main__second-sidebar-item-item:first-child{
+        margin-top: 10px;
+    }
+    .main__second-sidebar-item-item a{
+        color: black;
+        text-decoration: none;
+    }
+    .main__second-sidebar-item-item a:hover {
+        opacity: 0.7;
+    }
+    .main__second-sidebar-item-price{
+        margin-bottom: 10px;
+    }
+    .main__second-sidebar-item-item:nth-child(2n){
+        background-color: rgba(110, 136, 150, 0.87);
+    }
+    .main__second-sidebar-item-item:nth-child(2n -1){
+        background-color: white;
+    }
     .main__saidebars-wrapper{
         margin-right: 20px;
     }
@@ -526,7 +571,16 @@ body{
         display: flex;
         /* justify-content: space-between; */
         margin-top: 0px;
+        margin-right: 120px;
     }
+    .main__brend-slider-item{
+        width: 1000px;
+        height: 100px;
+        background-color: black;
+        margin-top: 20px;
+        position: relative;
+    }
+   
 
     .asmut-logo{
         width: 1000px;
@@ -559,6 +613,7 @@ body{
         display: flex;
         justify-content: space-around;
         margin-top: 20px;
+        margin-right: 10px;
     }
 
     .main__products-names-item{
@@ -600,6 +655,7 @@ body{
         display: flex;
         justify-content: space-around;
         margin-top: 20px;
+        margin-right: 100px;
     }
     .main__buy-products-wrapper-item{
         margin-bottom: 20px;
@@ -612,13 +668,13 @@ body{
         width: 200px;
         height: 400px;
         background-color: rgba(2, 152, 232, 1);
+        margin-right: 50px;
         
     }
     .main__buy-button-wrapper button{
         background-color: inherit;
         border: 1px solid blue;
         padding: 10px;
-        color: white;
         border-radius: 6px;
     }
     .main__buy-button-wrapper button:first-child{
@@ -632,6 +688,25 @@ body{
     .main__models-wrapper-model-name{
         margin-bottom: 30px;
     }
+    .main__models-color{
+        margin-right: 220px;
+    }
+    .main__models-color-item-item{
+        border:1px solid white;
+        padding: 10px;
+        background-color: white;
+        margin:2px 0 2px 0;
+        border-radius: 5px;
+        color: black;  
+    }
+    .main__models-color-item{
+        padding: 10px;
+    }
+    .main__models-color-item a:last-child{
+        color: blue;
+    }
+    
+
    .main__models-wrapper div{
        margin-bottom: 20px;
    }
@@ -644,8 +719,50 @@ body{
        background-color: rgba(2, 152, 232, 0.7);
       
    }
+   .second-block-params{
+       color: black;
+   }
+   .carf{
+       width: 300px;
+   }
+
+   .second-block-info-wrapper-item{
+       display: flex;
+       margin-bottom: 50px;
+   }
+   .second-sidebar{
+       margin-bottom: 545px;
+   }
+
+   .main__show-more-button{
+       width: 1200px;
+       position: relative;
+   }
+   .main__show-more-button > button {
+       padding: 10px;
+       border-radius: 6px;
+       background-color: blue;
+       color: white;
+       border: 1px solid blue;
+       margin-left: 400px;
+       margin-bottom: 30px;
+    }
+   .second-block-price{
+       color: black;
+   }
+   .second-block-price:last-child{
+       text-decoration: line-through;
+       color: gray;
+   }
+   .second-block-info-wrapper-items-item>div>button {
+       background-color: blue;
+       border: 1px solid blue;
+       border-radius: 6px;
+       color: white;
+       padding: 10px;
+   }
    .main__models-color a {
-    color: white;
+    color: black;
     text-decoration: none;
     padding-left: 10px;
     margin-top:30px
@@ -1004,7 +1121,48 @@ body{
     }
 
 }
+.second-block-info-wrapper-item{
+    color: white;
+    padding: 10px 0 0 20px;
+}
 
+.second-block-info-wrapper-item span{
+    text-decoration: underline;
+
+}
+.second-block-info-wrapper-item {
+    width: 700px;
+    /* background-color: blue; */
+}
+.second-block-info-wrapper{
+    margin-top: 40px;
+}
+
+.second-block-info-wrapper-item-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.second-block-info-wrapper-params{
+    display: flex;
+}
+
+ .second-block-info-wrapper-item-item {
+    margin-right: 30px;
+    margin-top: 30px;
+    border: 1px solid rgba(60, 151, 200, 0.87);
+    background-color: rgba(60, 151, 200, 0.87);
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.second-block-info-wrapper-item-itemff{
+    margin-right: 1;
+}
+.second-block-info-wrapper-item >img {
+    width: 950px;
+    height: 100px;
+    margin-top: 50px;
+}
 
 
 @media (max-width:767px){
