@@ -292,90 +292,6 @@ textarea {
 body{
     font-family: 'Merriweather', serif;
 }
-.header__container {
-    max-width: 1200px;
-    padding-top: 30px;
-    padding-left: 50px;
-    padding-bottom: 20px;
-    margin: 0 auto;
-    
-}
-
-.header__menu-wrapper {
-    display: flex;
-    
-}
-.header__menu-wrapper .header__menu {
-    margin-left: 15px;
-}
-
-.header__border {
-    border-bottom: 0.1px solid gray;
-    width: 100%;
-}
-
-.header__navbar{
-    display: flex;
-    justify-content: space-around;
-    margin-left: 20px;
-    margin-right: 100px;
-}
-
-.header__navbar-city a {
-    color: blue;
-    text-decoration: underline;
-}
-
-.header__menu a:hover {
-    opacity: 0.7;
-    
-}
-
-.header__menu a{
-    color:black;
-    text-decoration: none;
-}
-
-.header__navbar-number a {
-    text-decoration: none;
-    font-size: 16px;
-    color: black;
-    font-size: 20px;    
-}
-
-.header__navbar-callback a{
-    color: blue;
-    margin-right: 150px;
-}
-
-.header__navbar-number a span::after {
-    content: ")";
-}   
-
-.header__navbar-number a span::before {
-    content: "(";
-}   
-
-.header__burger-menu{
-    width: 20px;
-    height: 30px;
-    position: relative;
-    cursor: pointer;
-}
-
-
-.header-open {
-    transition: transform 0.4s ease-in-out;
-    display: none;
-}
-
-.header-open:hover {
-    transform:translate(100px);
-}
-
-.burger-close {
-
-}
 
 .active-page{
     font-size: 20px;
@@ -443,7 +359,9 @@ body{
         display: flex;
         justify-content: space-between;
         margin-top: 5px;
-        max-width: 1200px;
+        max-width: 80%;
+        min-width: 80%;
+        margin: 0 auto;
     }
     
     .main__search-logo-wrapper{
@@ -1071,10 +989,10 @@ body{
         max-width: 970px;
     }
     .main__routes a{
-        margin-right: 62px;
+        /* margin-right: 62px; */
     }
     .hed-nav{
-        margin-right: 10px;
+        /* margin-right: 10px; */
     }
     .user-stars {
         display: none;
@@ -1097,12 +1015,12 @@ body{
     .main__reviews{
         display: none;
     }
-    .main__routes a{
+    /* .main__routes a{
         margin-right: 90px;
-    }
-    .hed-nav{
+    } */
+    /* .hed-nav{
         margin-right: 20px;
-    }
+    } */
     .product-about{
         display: none;
     }
