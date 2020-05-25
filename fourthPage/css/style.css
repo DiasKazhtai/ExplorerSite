@@ -317,6 +317,7 @@ body{
 .header__navbar{
     display: flex;
     justify-content: space-around;
+    margin-left: 20px;
 }
 
 .header__navbar-city a {
@@ -635,7 +636,6 @@ body{
     .small-cats-wrapper2{
         margin-left: 70px;
     }
-
     .img-wrapper{
         width: 500px;
         display: flex;
@@ -661,6 +661,7 @@ body{
         display: flex;
         
     }
+
 
     .small-cats-wrapper2 > img{
         width: 100px;
@@ -915,29 +916,11 @@ body{
 .footer{
     transform: translateY(500px);
 }
-.main__detail-name {
-    text-align: justify;
+.main__detail-name{
+    font-size: 26px;
     margin-top: 30px;
     margin-left: 100px;
-}
 
-.main__head-wrapper{
-    /* display: ; */
-}
-
-.main__aside-bar {
-    display: flex;
-    flex-direction: column;
-}
-
-.main__aside-item{
-    padding: 10px;
-    box-sizing: border-box;
-    width: 350px;
-    margin-left: 100px;
-}
-.main__aside-item:nth-child(2n){
-    background-color: blue;
 }
 
 .footer__about--product{
